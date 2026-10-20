@@ -23,6 +23,10 @@ last entry.
 
 ### Changed
 
+- Agent and MCP guidance follows links relevant to the current question and
+  checks applicability even for reviewed knowledge; recall examples use the
+  same provenance and scope checks.
+
 - **The eight conditions are now three layers** ([docs/surface.md](docs/surface.md),
   [0158](docs/decisions/0158-conditions-are-properties-goals-and-means.md)).
   *Properties* P1–P5 are not broken: only a ruling changes what is
