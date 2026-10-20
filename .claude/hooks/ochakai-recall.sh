@@ -65,4 +65,4 @@ if [ -n "$session" ]; then
 		>>"${TMPDIR:-/tmp}/ochakai-recalled-$session"; } 2>/dev/null || true
 fi
 
-printf 'Knowledge in this repository'"'"'s ochakai instance that may bear on this request — pointers, not the knowledge itself. Fetch what you rely on with the ochakai MCP get_concept tool (never the CLI, per the identity policy); a fetched concept lists what links at it under linked_from. Trust verified concepts; judge drafts by created_by. A row marked `past stale_after` is due for re-checking, not wrong:\n\n%s\n' "$rows"
+printf 'Knowledge in this repository'"'"'s ochakai instance that may bear on this request — pointers, not the knowledge itself. Fetch what you rely on with the ochakai MCP get_concept tool (never the CLI, per the identity policy); a fetched concept lists what links at it under linked_from. Check trust, provenance and applicability to the current question; read relevant linked_from pointers. A row marked `past stale_after` is due for re-checking, not wrong:\n\n%s\n' "$rows"

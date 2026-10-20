@@ -1,6 +1,6 @@
 ---
 name: release
-description: Cut an ochakai release — the version-bump PR, the annotated tag, the release body, and the post-tag verification. Use when asked to release, cut a version, tag, or prepare a release PR.
+description: ochakaiのリリース準備・タグ・公開を依頼されたときに使う。準備PR、公開物の照合、必要な配備を許可された段階まで進める。
 ---
 
 # Cutting an ochakai release
@@ -13,6 +13,10 @@ PR, then a tag, then verification.
 
 [CONTRIBUTING.md](../../../CONTRIBUTING.md) is the reference; this skill
 is the running order and the traps.
+
+依頼された段階まで進める。準備PRだけの依頼はmerge・tag・公開・demo配備の
+許可ではない。対象と操作が既存の許可に含まれていれば再確認せず進め、
+不足する許可がある操作の前で止める。
 
 ## 0. Find out where you actually are
 

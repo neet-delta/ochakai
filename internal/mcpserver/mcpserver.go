@@ -200,8 +200,8 @@ const instructions = "ochakai serves human-curated knowledge for data work: what
 	"catalog around them. It runs no SQL.\n" +
 	"Before answering a data question, search_concepts, then get_concept the hits worth " +
 	"reading. A fetched concept carries linked_from — the concepts pointing at it, which " +
-	"is where the insight that says how to read a metric lives — so fetch those too " +
-	"before trusting a number.\n" +
+	"may explain its meaning or exceptions. Read relevant links; expand when evidence " +
+	"is missing or conflicts.\n" +
 	"A concept's id is its path (metrics/revenue, ga4/tables/orders). Place together " +
 	"what should be read together; the type is metadata, not a location.\n" +
 	"Judge trust from provenance, not from status: status is the lifecycle (draft, " +

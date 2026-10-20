@@ -1,6 +1,6 @@
 ---
 name: design-doc
-description: Update the current-state spec in docs/spec and, when a choice is likely to be reopened, add a short entry to docs/decisions. Use when a change alters what a user can observe — the wire, the stored form, identity and provenance, a Google Cloud dependency, a surface, or something ochakai refuses to do.
+description: ochakaiの外部挙動・保存形式・権限や来歴・依存を変更するときに現行仕様を更新し、再検討される判断だけを決定記録に残す。
 ---
 
 # Recording a design change
